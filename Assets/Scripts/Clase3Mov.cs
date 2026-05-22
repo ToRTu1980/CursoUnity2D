@@ -41,7 +41,7 @@ public class Clase3Mov : MonoBehaviour
 
     void FixedUpdate()
     {
-        //Asignamos la variable que determina la direccion
+        //Asignamos la variable que determina la direccion AFA
         mov = new Vector2(movimientoHorizontal, movimientoVertical);
         //Normalizamos el vector, hace que el movimiento sea igual en todas las direcciones, sin importar si es diagonal o recta
         mov = mov.normalized;
