@@ -41,14 +41,11 @@ public class Clase3Mov : MonoBehaviour
 
     void FixedUpdate()
     {
-        //Asignamos la variable que determina la direccion AFA
+        //Asignamos la variable que determina la direccion
         mov = new Vector2(movimientoHorizontal, movimientoVertical);
         //Normalizamos el vector, hace que el movimiento sea igual en todas las direcciones, sin importar si es diagonal o recta
         mov = mov.normalized;
         //Empujamos al objeto en la direccion que le asignamos, multiplicado por la velocidad y por el tiempo que tarda en actualizarse el FixedUpdate
-        //rb.velocity = (speed * Time.fixedDeltaTime * mov);
-
-        // Ya no multiplicamos por fixedDeltaTime, la velocidad es directa
-        rb.velocity = mov * speed;
+        rb.velocity = (speed * Time.fixedDeltaTime * mov);
     }
 }
