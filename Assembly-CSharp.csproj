@@ -63,6 +63,7 @@
     <Compile Include="Assets\Scripts\MainCamera.cs" />
     <Compile Include="Assets\Scripts\MovimientoPlayer.cs" />
     <Compile Include="Assets\Scripts\Clase3Mov.cs" />
+    <Compile Include="Assets\Scripts\Timer.cs" />
     <Compile Include="Assets\Scripts\Clase01.cs" />
   </ItemGroup>
   <ItemGroup>
