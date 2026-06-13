@@ -11,11 +11,17 @@ namespace Player
 
         //Velocidad inicial del movimiento, se puede modificar desde el inspector de Unity
 
-        [SerializeField] private float baseSpeed = 100f;
-        [SerializeField] private float sprintMultiplier = 1.5f;
-        [SerializeField] private float acceleration = 2f; // qué tan rápido sube/baja
+        [SerializeField] 
+        private float baseSpeed = 100f;
+        [SerializeField] 
+        private float sprintMultiplier = 1.5f;
+        [SerializeField] 
+        private float acceleration = 2f; // qué tan rápido sube/baja
+
         private float currentSpeed;
         private Rigidbody2D rb;
+
+        public float vida = 100f;
 
         void Start()
         {

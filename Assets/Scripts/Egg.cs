@@ -2,8 +2,10 @@ using UnityEngine;
 
 public class Egg : MonoBehaviour
 {
+    [SerializeField] 
+    private Timer timer;
+
     private bool eggOn = false;
-    [SerializeField] private Timer timer;
 
     // Update is called once per frame
     void Update()
