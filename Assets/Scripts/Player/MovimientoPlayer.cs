@@ -21,8 +21,6 @@ namespace Player
         private float currentSpeed;
         private Rigidbody2D rb;
 
-        public float vida = 100f;
-
         void Start()
         {
             //Obtengo las propiedades del RigidBody de mi objeto, para eso lo asigno a una variable
